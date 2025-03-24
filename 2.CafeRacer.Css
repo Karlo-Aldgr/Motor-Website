@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(Motor.Picture/CafeRacer3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background-color:rgba(110, 60, 9, 0.67);
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    
+
+}
+a{  float: right;
+    color: antiquewhite;
+    text-decoration:none ; /*Para walang underline*/
+    margin-right: 90px;
+    font-family:impact;
+    font-size: 180%;
+    transition: 1s;
+    
+}
+a:hover{
+    color: rgb(182, 159, 123);
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    margin: 10px 30px;
+    flex-basis: 50%;
+}
+h1{
+    color: azure;
+    font-size: 100px;
+    margin: 10px 70px;
+    font-family:fantasy;
+}
+p{
+    color: aliceblue;
+    font-size: 50px;
+    line-height: 15px;
+    margin: 0 70px;
+    font-family:'Segoe UI';
+}
+button{
+    font-family: impact;
+    width: 180px;
+    color: antiquewhite ;
+    font-size: 20px;
+    padding: 12px 0;
+    border: 2px;
+    border-radius: 10px;
+    background-color: rgba(44, 47, 49, 0.849);
+    outline: none;
+    margin-top: 60px;
+    margin-left: 70px;
+    transition:0.2s;
+}
+button:hover{
+background-color: rgba(110, 60, 9, 0.67);
+transform: translateX(10px);
+}
+ 
+
+.Card{
+
+    width: 230px;
+    height:230px ;
+    display: inline-block;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing:border-box;
+    cursor: pointer;
+    margin: 10px 20px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+
+.Card:hover{
+    transform: translateY(-15px);
+
+}
+
+
+.Card1{
+    background-image: url(Motor.Picture/PARTS.jpg) ;
+}
+.Card2{
+    background-image: url(Motor.Picture/FIELD.jpg) ;
+}
+.Card3{
+    background-image: url(Motor.Picture/HELMET.jpg) ;
+}
+.Card4{
+    background-image: url(Motor.Picture/CafeRacer4.jpg) ;
+}
+
+
+h4{
+    color:rgba(237, 242, 246, 0.849);
+    background-color: rgba(0, 0, 0, 0.551);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: monospace;
+}
+h4:hover{
+    color:rgb(219, 138, 17);
+}
+
+
+h3{
+    color: rgb(237, 246, 247);
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.551);
+    border-radius: 5px;
+}
+h3:hover{
+    color:rgb(219, 138, 17);
+}

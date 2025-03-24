@@ -1,0 +1,32 @@
+body {
+    font-family: 'Oswald', sans-serif; /* You can change the font-family */
+    margin: 20px;
+    background-color: #e5dccf; /* Cream White */
+    color: #2c2f31; /* Black */
+    text-align: center;
+}
+
+h1 {
+    color: #6e3c09; /* Brown */
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.helmet-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #2c2f31; /* Black */
+    padding: 10px;
+    margin: 20px auto; /* Center the images */
+}
